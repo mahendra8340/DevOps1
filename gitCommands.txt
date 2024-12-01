@@ -25,8 +25,5 @@ git pull origin main --allow-unrelated-histories
 git branch -a --> to see current active brach
 git remote -v --> to see mapped remote URL
 git reset <commitid> --> to revert changes to commitid
-<<<<<<< HEAD
 git rebase -i <commitid>
-=======
 git reset --hard <commitid>
->>>>>>> 6cc8b75 (git conflict)
