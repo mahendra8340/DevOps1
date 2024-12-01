@@ -20,3 +20,7 @@ git fetch origin
 git merge origin/main --allow-unrelated-histories
 git pull origin main --allow-unrelated-histories
 
+
+
+git branch -a --> to see current active brach
+git remote -v --> to see mapped remote URL
