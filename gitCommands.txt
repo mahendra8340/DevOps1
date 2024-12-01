@@ -1,0 +1,26 @@
+mahendra8340/DevOps
+
+
+echo "# DevOps1" >> README.md
+git init
+git add README.md
+git commit -m "first commit"
+git branch -M main
+git remote add origin git@github.com:mahendra8340/DevOps1.git
+git push -u origin main
+
+git remote add origin git@github.com:mahendra8340/DevOps1.git
+git branch -M main
+git push -u origin main
+
+To display only the name of the current branch you're on:
+git rev-parse --abbrev-ref HEAD
+
+git fetch origin
+git merge origin/main --allow-unrelated-histories
+git pull origin main --allow-unrelated-histories
+
+
+
+git branch -a --> to see current active brach
+git remote -v --> to see mapped remote URL
