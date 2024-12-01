@@ -31,7 +31,10 @@ git reset <commitid> --> to revert changes to commitid
 git remote prune origin
 git fetch -p
 
-delete branch
+delete local branch
 git branch -d <brachname>
-git branch -d -r origin/coolbranch
+git branch -d -r coolbranch (-d to delete, -r to unlink remote tracking branches)
 
+
+Delete remote braches
+git push origion --delete <branchname>
