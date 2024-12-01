@@ -27,6 +27,7 @@ git remote -v --> to see mapped remote URL
 git reset <commitid> --> to revert changes to commitid
 
 
+
 -- to udpate with remote deleted branches in lcoal remote repo
 git remote prune origin
 git fetch -p
@@ -38,3 +39,7 @@ git branch -d -r coolbranch (-d to delete, -r to unlink remote tracking branches
 
 Delete remote braches
 git push origion --delete <branchname>
+
+
+git reset <commitId> --> to revert changes
+
