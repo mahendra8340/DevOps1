@@ -25,3 +25,4 @@ git pull origin main --allow-unrelated-histories
 git branch -a --> to see current active brach
 git remote -v --> to see mapped remote URL
 git reset <commitid> --> to revert changes to commitid
+git rebase -i <commitid>
