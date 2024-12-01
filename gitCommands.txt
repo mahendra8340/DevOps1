@@ -28,3 +28,4 @@ git reset <commitid> --> to revert changes to commitid
 
 
 --Git pull sample
+git reset <commitId> --> to revert changes
