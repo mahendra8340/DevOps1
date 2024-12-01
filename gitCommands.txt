@@ -27,4 +27,11 @@ git remote -v --> to see mapped remote URL
 git reset <commitid> --> to revert changes to commitid
 
 
---Git pull sample
+-- to udpate with remote deleted branches in lcoal remote repo
+git remote prune origin
+git fetch -p
+
+delete branch
+git branch -d <brachname>
+git branch -d -r origin/coolbranch
+
