@@ -43,3 +43,8 @@ git push origion --delete <branchname>
 
 git reset <commitId> --> to revert changes
 
+Create new branch with old branch contenet
+Option1: git checkout -b new_branch old_branch (-b means new branch)
+Option2: git branch copyOfMyBranch MyBranch
+Option3: checkout to desired branch and git checkout <newbranchname>
+
