@@ -48,3 +48,6 @@ Option1: git checkout -b new_branch old_branch (-b means new branch)
 Option2: git branch copyOfMyBranch MyBranch
 Option3: checkout to desired branch and git checkout <newbranchname>
 
+
+
+Normally new branch created from Main branch
