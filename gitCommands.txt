@@ -50,4 +50,4 @@ Option3: checkout to desired branch and git checkout <newbranchname>
 
 
 
-Normally new branch created from Main branch
+Normally new branch created from Main branch.
