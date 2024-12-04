@@ -1,1 +1,2 @@
 This change made in master branch
+This is the change made in feature branch
